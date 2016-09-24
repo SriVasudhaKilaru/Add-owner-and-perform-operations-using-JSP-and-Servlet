@@ -1,0 +1,10 @@
+Create Pages to create a new Owner and Update an existing owner.
+
+ Create a new Owner-
+1. Create a form which takes as input all the details required to create a new owner (check the database table of owner to figure out what data you need in the form).
+2. Once this form submits, add functionality in the servlet to create a new owner using Service and DAO classes.
+3. If the owner is successfully added, use RequestDispatcher to redirect the request a jsp page which shows all the owners in system in a tabular form.
+
+Update Owner
+1. Create a page which list all the owners in the system. Provide a link on the Owner Name field.
+2. When you click that link, an editable form is opened with pre-filled details of the owner. You can change any values in the form and click update which will update the new value in the system.
